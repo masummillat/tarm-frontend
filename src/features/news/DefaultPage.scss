@@ -1,0 +1,25 @@
+@import '../../styles/mixins';
+
+.news-default-page {
+  text-align: center;
+
+  align-items: center;
+  display: inline-block;
+  .image-container {
+
+    text-align: center;
+    align-items: center;
+
+    img {
+      width: 80%;
+      height:40vh;
+    }
+    .title-desc{
+      display: block;
+      h1{
+        font-weight:600;
+        margin: 10px;
+      }
+    }
+  }
+}

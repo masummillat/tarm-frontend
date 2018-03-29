@@ -1,0 +1,9 @@
+@import '../../styles/mixins';
+
+.home-default-page {
+display: block;
+  overflow: hidden;
+  .footer{
+    background-color: #ff1744;
+  }
+}

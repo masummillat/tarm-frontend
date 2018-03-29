@@ -1,0 +1,11 @@
+@import '../../styles/mixins';
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+.home-simple-slider {
+  img {
+    width: 100%;
+    max-width: 100%;
+    max-height: 650px;
+
+  }
+}

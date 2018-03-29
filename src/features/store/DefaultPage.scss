@@ -1,0 +1,10 @@
+@import '../../styles/mixins';
+
+.store-default-page {
+  display: block;
+  .head{
+    margin: 10px;
+    font-size: 30px;
+    font-weight: 600;
+  }
+}

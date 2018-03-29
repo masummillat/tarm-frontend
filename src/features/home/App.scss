@@ -1,0 +1,33 @@
+@import '../../styles/mixins';
+
+.home-app {
+
+  .home-navigation{
+    background: #ff1744;
+
+
+    margin-bottom: 30px;
+
+    ul{
+      list-style: none;
+      text-align: center;
+      li{
+        color: #ffffff;
+        text-align: center;
+        display: inline-flex;
+        margin: 10px;
+
+        border-radius: 5px;
+        .link{
+          font-weight: 600;
+          font-size: 18px;
+          color: #ffffff;
+          list-style: none;
+          text-decoration: none;
+          padding: 10px;
+        }
+
+      }
+    }
+  }
+}

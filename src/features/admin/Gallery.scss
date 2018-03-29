@@ -1,0 +1,96 @@
+@import '../../styles/mixins';
+
+.admin-gallery {
+  text-align: center;
+  display: inline-block;
+  align-items: center;
+  .gallery-input{
+    border: 1px solid #000;
+  }
+  .gallery{
+    display: inline-block;
+    width:100vw;
+
+    text-align: center;
+    align-items: center;
+    .image-container{
+      display: inline;
+      //overflow-x: auto;
+      width: 100%;
+      height: 100%;
+
+      .image-display{
+        float: left;
+        overflow: hidden;
+        border-radius: 5px;
+        position: relative;
+        display: block;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        width: 23vw;
+        height: 25vh;
+        min-width: 200px;
+
+        margin: 10px;
+        -webkit-box-shadow: 0px 0px 27px 0px rgba(0,0,0,0.75);
+        -moz-box-shadow: 0px 0px 27px 0px rgba(0,0,0,0.75);
+        box-shadow: 0px 0px 27px 0px rgba(0,0,0,0.75);
+
+        .image{
+          width: 100%;
+          height:100%;
+          z-index: -1;
+        }
+        .delete-image{
+          align-items: center;
+          justify-content: center;
+          display: inline-block;
+          width: 100%;
+          height: 20%;
+          float: right;
+          color: white;
+          background: black;
+          filter: alpha(opacity=60);
+          /* IE */
+          -moz-opacity: 0.6;
+          /* Mozilla */
+          opacity: 0.6;
+          top: -68px;
+          position: relative;
+
+          .delete:hover{
+            color:red;
+            cursor: pointer;
+          }
+        }
+        .image-title{
+          align-items: center;
+          justify-content: center;
+          display: inline-block;
+          width: 100%;
+          height: 20%;
+          float: right;
+          color: white;
+          background: black;
+          filter: alpha(opacity=60);
+          /* IE */
+          -moz-opacity: 0.6;
+          /* Mozilla */
+          opacity: 0.6;
+          top:-164px;
+          position: relative;
+        }
+
+      }
+      .image-display:hover{
+        -webkit-box-shadow: 0px 0px 36px 0px rgba(0,0,0,0.75);
+        -moz-box-shadow: 0px 0px 36px 0px rgba(0,0,0,0.75);
+        box-shadow: 0px 0px 36px 0px rgba(0,0,0,0.75);
+      }
+    }
+
+    }
+
+
+}

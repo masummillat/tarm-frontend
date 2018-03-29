@@ -1,0 +1,27 @@
+@import '../../styles/mixins';
+
+.admin-news {
+text-align: center;
+
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+}

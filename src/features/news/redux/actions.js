@@ -1,0 +1,1 @@
+export { fetchNewsWithId } from './fetchNewsWithId';

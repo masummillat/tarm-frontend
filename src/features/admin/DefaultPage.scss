@@ -1,0 +1,30 @@
+@import '../../styles/mixins';
+
+.admin-default-page {
+
+  display: block;
+
+  width: 100%;
+  height: 100%;
+  .Title-bar{
+    height: 10vh;
+    width: 100vw;
+    background-color: aqua;
+    display: block;
+    text-align: center;
+    h1{
+      align-items: center;
+      justify-content: center;
+    }
+  }
+
+  .nav{
+    text-align: center;
+    align-items: center;
+      .link{
+
+        list-style: none;
+        text-decoration: none;
+      }
+  }
+}

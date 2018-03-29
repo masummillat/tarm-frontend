@@ -1,0 +1,18 @@
+@import '../../styles/mixins';
+
+.home-footer {
+  background-color: #ff1744;
+  .footer{
+    display: inline-block;
+    background-color: #ff1744;
+    .social{
+      display: block;
+      float: left;
+
+    }
+    .address{
+      display: block;
+      float: right;
+    }
+  }
+}

@@ -1,0 +1,9 @@
+export { default as DefaultPage } from './DefaultPage';
+export { default as AddProduct } from './AddProduct';
+export { default as AddCategory } from './AddCategory';
+export { default as List } from './List';
+export { default as UpdateCategory } from './UpdateCategory';
+export { default as ProductList } from './ProductList';
+export { default as UpdateProduct } from './UpdateProduct';
+export { default as Gallery } from './Gallery';
+export { default as News } from './News';

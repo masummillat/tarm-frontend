@@ -1,0 +1,1 @@
+export { fetchGallery } from './fetchGallery';

@@ -1,0 +1,10 @@
+@import '../../styles/mixins';
+
+.admin-add-product {
+    text-align: center;
+
+  form input.error {
+    border-color: red;
+  }
+
+}

@@ -1,0 +1,11 @@
+// index is the entry for all styles.
+@import './reset.css';
+@import './global';
+@import '../features/home/style';
+@import '../features/common/style';
+@import '../features/admin/style';
+@import '../features/contact/style';
+@import '../features/news/style';
+@import '../features/gallery/style';
+@import '../features/store/style';
+@import '../features/find-us/style';
